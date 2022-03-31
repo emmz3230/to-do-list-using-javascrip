@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST </title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+
+<body>
+    <div class="list">
+        <p class="to">TODO LIST</p>
+        <div>
+            <p class="add">ADD ITEM</p>
+            <hr>
+            <input type="text" class="put" id="put">
+            <button class="too">ADD</button>
+        </div>
+        <div class="go">
+            <p class="do">TODO</p>
+            <hr>
+            <ul id="pleted">
+                <li><input type="checkbox">
+                    <input type="text" class="in" value="pay Bills">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </li>
+                <li class="pleted">
+                    <input type="checkbox">
+                    <input type="text" class="in" value="Go shopping">
+                    <button class="edit">edit</button>
+                    <button class="delete">delete</button>
+                </li>
+            </ul>
+            <h3>Completed</h3>
+            <ul id="com" class="com">
+                <li><input type="checkbox" checked>
+                    <label >see the doctor</label>
+                    <input type="text" class="in" value="see the doctor">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </li>
+            </ul>
+        </div>
+</body>
+<script src="todolist.js"></script>
+
+</html>
