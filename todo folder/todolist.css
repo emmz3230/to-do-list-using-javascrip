@@ -1,0 +1,81 @@
+.list{
+    background-color: #E4E4E4;
+    width: 450px;
+    margin-left: 400px;
+    margin-top:100px;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.to{
+    font-size: 50px;
+    text-align: center;
+}
+hr{
+    border: 1px solid black;
+}
+.add{
+    font-size: 30px;
+}
+.put{
+width: 350px;
+height:40px;
+border-radius: 10px;
+font-size: 25px;
+}
+.too{
+height: 40px;
+width: 70px;
+border-radius: 10px;
+font-size: 20px;
+}
+.too:hover{
+    color:  green;
+}
+ .do{
+    font-size: 30px;
+}
+.go{
+    font-size: 30px;
+}
+input{
+    width: 50px;
+    height:20px; 
+    margin: 0;
+	font-size: 18px;
+	line-height: 18px;
+	height: 18px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	background: #fff;
+	border-radius: 6px;
+	font-family: Lato, sans-serif;
+	color: #888;
+}
+.button{
+    width: 90px;
+    height:30px;
+}
+.button:hover{
+    color:red;
+}
+.com{
+    font-size: 35px; 
+}
+.in{
+    width: 180px;
+    height:26px;
+    font-size: 25px;
+}
+.edit{
+    width: 50px;
+    height: 33px;
+    font-size: 20px;
+}
+.delete{
+    width: 57px;
+    height: 33px;
+    font-size: 15px;
+}
